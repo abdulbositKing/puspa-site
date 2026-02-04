@@ -1,0 +1,65 @@
+.puspa {
+    margin-left: 160px;
+    margin-top: -852px;
+}
+
+.puspa__text {
+    display: flex;
+}
+
+.puspa__text--left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.puspa__text--left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.puspa__text--right {
+    margin-left: 200px;
+}
+
+.puspa__text--right input {
+    width: 548px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 30px;
+}
+
+.puspa__text--right input::placeholder{
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.puspa__buttons {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.puspa__buttons button {
+    width: 140px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+}
+
+.puspa__buttons button:hover {
+    border: 3px solid #005B41;
+}

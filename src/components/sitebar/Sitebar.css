@@ -1,0 +1,141 @@
+.sidebar {
+  position: sticky;
+  height: 888px  ;
+  width: 130px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 10px;
+  transition: 0.3s ease;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar.open {
+  width: 220px;
+}
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  margin-bottom: 60px;
+  margin-left: 78px;
+}
+
+.sidebar__logo img {
+  width: 48px;
+}
+
+.sidebar.open .sidebar__logo span {
+  margin-right: 70px;
+}
+
+.sidebar__logo span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #028170;
+  opacity: 0;
+  font-family: cursive;
+  transition: 0.3s ease;
+}
+
+.sidebar.open .sidebar__logo span {
+  opacity: 1;
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+}
+
+.sidebar.open .sidebar__links {
+    margin-top: -67px;
+}
+
+.sidebar__link {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sidebar.open .sidebar__link {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 24px;
+  gap: 14px;
+}
+
+.sidebar.open .sidebar__link img {
+    width: 24px;
+    margin-left: 8px;
+}
+
+.sidebar.open .sidebar__link span {
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.sidebar__link:hover {
+  background: #028170;
+}
+
+.sidebar__link img {
+  width: 22px;
+}
+
+.sidebar__link span {
+  font-size: 15px;
+  color: #232D40;
+  font-weight: 400;
+  text-align: center;
+  transition: 0.3s ease;
+  margin-top: 5px;
+}
+
+.sidebar__link:hover span {
+  color: #D2FEF8;
+}
+
+.sidebar__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+.sidebar.open .sidebar__profile {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 24px;
+  gap: 12px;
+  margin-left: 18px;
+  margin-top: -40px;
+}
+
+.sidebar__profile img {
+  width: 44px;
+  border-radius: 50%;
+}
+
+.sidebar__profile span {
+  font-size: 16px;
+  color: #232D40;
+  font-weight: 400;
+}
+
+.sidebar.open .sidebar__profile span {
+  font-family: cursive;
+}
