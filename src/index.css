@@ -12,4 +12,5 @@
   width: 100%;
   background-color: #F6F5F5;
   font-family: sans-serif;
+  object-fit: cover;
 }
